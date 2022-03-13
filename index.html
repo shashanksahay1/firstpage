@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM Plus</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        h3,p{padding: 0%;
+            padding-top: 6px;
+            margin:5px;
+
+        }
+        .container {
+            background-color: rgb(248, 236, 236);
+            display: flex;
+            /* border: 2px solid red; */
+            height: 48px;
+        }
+
+        .gym {
+            /* border: 2px solid blue; */
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(8, 123, 199);
+        }
+
+        .about {
+            /* border: 2px solid green; */
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .log {
+            /* border: 2px solid yellow; */
+            width: 29%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+        .about a{
+            text-decoration: none;
+            color: rgb(112, 96, 96);
+            font-weight: bold;
+             }
+             .item :hover{
+                 text-decoration: underline;
+
+             }
+             .login{
+                 /* background-color: rgb(23, 223, 250); */
+                     /* background-color: rgb(23, 223, 250); */
+    /* border: 2px solid rgb(23, 223, 250); */
+    border-radius: 5px;
+    width: 107px;
+    height: 28px;
+    margin: -83px;
+    cursor: pointer;
+ }   
+ .box{
+     /* border: 2px solid red; */
+     width: 25%;
+     border-radius: 100%;
+     padding: 3px 2px;
+    
+ }  
+ .screen{ 
+    /* border: 2px solid red; */
+    height: 30em;
+    background-image: url(http://www.getyourmanagement.com/static/media/med-badr-chemmaoui-zspbhokqdmc-unsplash-2000x1333.07086fad.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+     
+ }
+ .download{
+     /* border: 2px solid rgb(145, 145, 24); */
+     background-color: #f0ffff96;
+     padding: 4px 10px;
+     /* margin: 2px 0px; */
+     height: 30rem;
+     width: 50%;
+     position: absolute;
+     right: 10px;
+     box-sizing: border-box;
+ }
+ .download h3{
+     display: flex;
+     justify-content: center;
+     margin-top: 10em;
+ }
+ .download p{
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     justify-items: center;
+     /* margin-top: 1em; */
+ }
+ .logo{
+     /* border: 2px solid green; */
+     /* background-color: rgb(15, 127, 179); */
+     display: flex;
+     justify-content: center;
+     /* text-decoration: none; */
+ }
+ .logo a p{
+     /* background-color: rgb(19, 138, 168); */
+     border-radius: 5px;
+     padding: 5px 18px;
+    margin: 10px;
+    color: rgb(10, 9, 9);
+    
+ }
+ .element{
+     /* border: 2px solid blueviolet; */
+
+ }
+ .element h2{
+     display: flex;
+     justify-content: center;
+     padding-top: 2em;
+ }
+ .element p{
+     display: flex;
+     justify-content: center;
+ }
+ .circle{
+     /* border: 2px solid orange; */
+     display: flex;
+     
+    
+ }
+ /* .item-1{
+     border: 2px solid rgb(10, 54, 121);
+    */
+ 
+ .paper{
+     /* border: 2px solid purple; */
+     
+     flex-direction: column;
+      /* box-sizing: border-box; */
+      margin: 8px;
+      padding: 10px;
+     text-align: center;
+     
+ }
+ .grid{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding-top: 1rem;
+     /* background-image: url() */
+    }
+    .item1{
+        color: rgb(1, 2, 2);
+     background-color: lightgray;
+     border: 2px solid black;
+     height: 108px;
+     width: 108px;
+     border-radius: 10px;
+     
+ }
+ /* .item1 img{
+     height: 100px;
+     width: 80px; */
+ }
+ .pack{
+     /* border: 2px solid red; */
+     /* background-image: url(); */
+   
+ }
+.silver{
+    /* border: 2px solid yellow; */
+    width:54em;
+    height: 144px;
+    text-align: center;
+    margin-left: 18em;
+    display: flex;
+    background-color: rgb(226, 220, 220);
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    display: flex;
+    
+}
+.words{
+    justify-content: left;
+    box-sizing: border-box;
+    padding-left: 28px;
+    padding-bottom: 2px ;
+}
+.gold{
+    /* border: 2px solid green; */
+    width: 54em;
+    height: 144px;
+    text-align: center;
+    margin-left: 18em;
+    display: flex;
+    background-color: rgb(226, 220, 220);
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.platinum{
+    /* border: 2px solid blue; */
+    width: 54em;
+    height: 144px;
+    text-align: center;
+    margin-left: 18em;
+    display: flex;
+    background-color: rgb(226, 220, 220);
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.words p{
+    padding-top: 0%;
+    padding-bottom: 2px;
+    margin-bottom: 13px;
+}
+.words a{
+    /* border: 2px solid rgb(24, 118, 180); */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    background-color: rgb(23, 166, 202);
+    color: black;
+}
+.details{
+    justify-content: center;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="root">
+    <div class="container">
+        <div class="gym">
+            GetYourManagement+
+        </div>
+        <div class="about">
+            <span class="item"><a href="#">About Us</a>
+                
+            </span>
+            <span class="item"><a href="#">Services</a>
+                
+            </span>
+            <span class="item" ><a href="#">Contacts</a>
+                
+            </span>
+            <span class="item"><a href="#">Ins</a>
+                
+            </span>
+            <span class="item"><a href="#"> Face</a>
+               
+            </span>
+            <span class="item"><a href="#">Twi</a>
+                
+            </span>
+        </div>
+        <div class="log">
+            <button class="login">Login</button>
+            <button class="login">Regester</button>
+        </div>
+        </div>
+       <div class="screen">
+           <div class="download">
+               <h3> Tired of managing your business on paper </h3>
+               <p>now manage hassle free with our app</p>
+               <div class="logo">
+                <a href=https://www.google.com><p><strong>Download now</strong> </p></a>
+               </div>
+           </div>
+           
+       </div>
+    </div>
+    <div class="element">
+        <h2>What is GymPlus+?</h2>
+        <p>Use GetYourManagement Plus+ android app to digitally keep <br>records of all your customer and their subsription plans.</p>
+    </div>
+    <div class="circle">
+       <div class="paper">
+           <p class="item-1">logo</p>
+           <h4>No paper work</h4>
+           <p class="element1">
+               You don't have to maintain your paper work to keep record of all your customers. Do it hassle free in the app
+           </p>
+       </div>
+       <div class="paper">
+           <p class="item-2">logo</p>
+          <h4> Customised offers</h4>
+           <p class="element2">
+            Target your customer with personalised offers and send them through E-mail and SMS.
+           </p>
+       </div>
+       <div class="paper">
+           <p class="item-3">logo</p>
+           <h4>Manage Visitors and Enquiries</h4>
+           <p class="element3">
+            Keep a record of all the visitorws and Enquiries and send them personalised offers.
+           </p>
+       </div>
+    </div>
+    <div class="grid">
+    <div class="item1">
+       <!-- <img src="../getyourmanagementassets/icons8-attendance-64@2x.png" alt="icons8-attendance-64"> -->
+    </div>
+    <div class="item1"></div>
+    <div class="item1"></div>
+    <div class="item1"></div>
+    <div class="item1"></div>
+    <div class="item1"></div>
+    <div class="item1"></div>
+    <div class="item1"></div>
+    </div>
+    <div class="pack">
+        <div class="silver">
+            <div class="words">
+            <h3>SILVER</h3>
+            <h3>$800 <p>per month</p></h3>
+             <a href="#">Get started</a></div>
+             <div class="details">
+                 <div>Manage upto 1 store</div>
+             </div>
+        </div>
+        <div class="gold">
+            <div class="words">
+            <h3>GOLD</h3>
+            <h3>$800 <p> per month</p></h3>
+            <a href="#">Get started</a>
+           </div>
+        </div>
+        <div class="platinum">
+            <div class="words">
+            <h3>PLATINUM</h3>
+            <h3>$800 <p> per month</p></h3>
+            <a href="#">Get started</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
